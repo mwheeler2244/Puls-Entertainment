@@ -1,4 +1,4 @@
-# 🎵 Musicly Discovery Platform
+# 🎵 Musician Discover
 
 A modern music discovery platform built with Next.js that helps users find emerging artists and hidden musical gems from around the world.
 
@@ -10,11 +10,9 @@ A modern music discovery platform built with Next.js that helps users find emerg
 ## ✨ Features
 
 - **🎯 Artist Discovery** - Curated selection of emerging and established musicians
-- **📝 Artist Submissions** - Community-driven platform for suggesting new artists
 - **📧 Newsletter Subscription** - Weekly updates with new discoveries and exclusive content
-- **📊 Impact Analytics** - Showcase platform statistics and success stories
 - **📱 Responsive Design** - Optimized for all devices and screen sizes
-- **🌐 Global Reach** - Featuring artists from 50+ countries
+- **🌐 Global Reach** - Featuring artists from around the world
 - **🔍 SEO Optimized** - Built with Next.js for optimal search engine visibility
 
 ## 🚀 Tech Stack
@@ -31,8 +29,8 @@ A modern music discovery platform built with Next.js that helps users find emerg
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/yourusername/musicly-discovery-platform.git
-   cd musicly-discovery-platform
+   git clone https://github.com/yourusername/musician-discover.git
+   cd musician-discover
    ```
 
 2. **Install dependencies**
@@ -58,21 +56,25 @@ A modern music discovery platform built with Next.js that helps users find emerg
 ```
 app/
 ├── components/                 # Reusable UI components
-│   ├── HeroSection.tsx        # Landing page hero with navigation
-│   ├── LatestDiscoveries.tsx  # Artist showcase cards
-│   ├── SuggestSection.tsx     # Artist submission form
-│   ├── ImpactSection.tsx      # Platform statistics
-│   ├── SubscribeSection.tsx   # Newsletter signup
-│   ├── Footer.tsx             # Site footer
-│   ├── Toast.tsx              # Notification component
-│   └── index.ts               # Component exports
-├── lib/                       # Utility functions and configurations
-│   └── fonts.ts               # Google Fonts configuration
-├── globals.css                # Global styles
-├── layout.tsx                 # Root layout component
-└── page.tsx                   # Home page
+│   ├── AboutTeaserSection.tsx  # About page teaser
+│   ├── Footer.tsx              # Site footer
+│   ├── Header.tsx              # Site header and navigation
+│   ├── HeroSection.tsx         # Landing page hero
+│   ├── MissionStatement.tsx    # Platform mission statement
+│   ├── SubscribeSection.tsx    # Newsletter signup
+│   ├── Toast.tsx               # Notification component
+│   └── index.ts                # Component exports
+├── lib/                        # Utility functions and configurations
+│   └── fonts.ts                # Google Fonts configuration
+├── about/                      # About page
+├── clients/                    # Clients/partners page
+├── contact/                    # Contact page
+├── partners/                   # Partners page
+├── services/                   # Services page
+├── globals.css                 # Global styles
+├── layout.tsx                  # Root layout component
+└── page.tsx                    # Home page
 ```
-
 
 ## 📱 Responsive Design
 
@@ -85,9 +87,6 @@ The platform is fully responsive and optimized for:
 
 ## 🌍 External Integrations
 
-- **Unsplash** - High-quality artist photography
-- **Pinterest** - Additional image resources
 - **Social Media** - Links to platform social accounts
 
-
-
+_This project is a work in progress. More features and integrations coming soon!_
