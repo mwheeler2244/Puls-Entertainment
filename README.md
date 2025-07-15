@@ -1,6 +1,6 @@
-# 🎵 Musician Discover
+# 🎵 Puls Entertainment
 
-A modern music discovery platform built with Next.js that helps users find emerging artists and hidden musical gems from around the world.
+A modern music industry marketing company.
 
 ![Next.js](https://img.shields.io/badge/Next.js-15.3.2-black?style=flat-square&logo=next.js)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue?style=flat-square&logo=typescript)
