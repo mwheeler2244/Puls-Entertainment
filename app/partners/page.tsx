@@ -67,7 +67,7 @@ export default function PartnersPage() {
               <img
                 src={partner.img}
                 alt={partner.alt}
-                className="mb-5 rounded-lg h-28 w-28 object-contain border-4 bg-neutral-800 shadow-md hover:shadow-lg transition-shadow border-white group-hover:border-[var(--accent)] group-focus:border-[var(--accent)]"
+                className="mb-5 rounded-lg h-28 w-28 object-contain bg-neutral-800 shadow-md hover:shadow-lg transition-shadow border-white group-hover:border-[var(--accent)] group-focus:border-[var(--accent)]"
                 style={{ borderColor: partner.border }}
               />
               <h2 className="text-2xl font-bold mb-2 text-white drop-shadow-sm">

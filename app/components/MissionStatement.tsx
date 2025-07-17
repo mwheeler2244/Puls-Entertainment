@@ -23,7 +23,7 @@ const Principle = ({
         style={{ borderColor: "rgba(255, 255, 255, 0.1)" }}
       >
         <button
-          className="w-full flex items-center justify-between py-8 focus:outline-none group"
+          className="cursor-pointer w-full flex items-center justify-between py-8 focus:outline-none group"
           aria-expanded={open}
           onClick={() => setOpen((v) => !v)}
         >

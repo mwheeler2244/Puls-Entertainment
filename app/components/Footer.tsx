@@ -65,7 +65,7 @@ export const Footer = () => {
                       href="https://x.com/PULS2024"
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="group w-12 h-12 rounded-xl flex items-center justify-center bg-gray-800 hover:bg-[#0aaae8] transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-[#0aaae8] focus:ring-offset-2 focus:ring-offset-black"
+                      className="group w-12 h-12 flex items-center justify-center bg-gray-800 hover:bg-[#0aaae8] transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-[#0aaae8] focus:ring-offset-2 focus:ring-offset-black"
                       aria-label="Twitter"
                     >
                       <svg
@@ -80,7 +80,7 @@ export const Footer = () => {
                       href="https://www.instagram.com/pulsentertainment24/?igsh=MTU2eGp4MHh6NHh6Ng%3D%3D#"
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="group w-12 h-12 rounded-xl flex items-center justify-center bg-gray-800 hover:bg-[#76ba50] transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-[#76ba50] focus:ring-offset-2 focus:ring-offset-black"
+                      className="group w-12 h-12 flex items-center justify-center bg-gray-800 hover:bg-[#76ba50] transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-[#76ba50] focus:ring-offset-2 focus:ring-offset-black"
                       aria-label="Instagram"
                     >
                       <svg
@@ -95,7 +95,7 @@ export const Footer = () => {
                       href="https://www.facebook.com/people/PULS-Entertainment/61563958379055/?mibextid=LQQJ4d"
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="group w-12 h-12 rounded-xl flex items-center justify-center bg-gray-800 hover:bg-[#0aaae8] transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-[#0aaae8] focus:ring-offset-2 focus:ring-offset-black"
+                      className="group w-12 h-12 flex items-center justify-center bg-gray-800 hover:bg-[#0aaae8] transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-[#0aaae8] focus:ring-offset-2 focus:ring-offset-black"
                       aria-label="Facebook"
                     >
                       <svg
@@ -211,7 +211,7 @@ export const Footer = () => {
                   </p>
                   <a
                     href="/contact"
-                    className="inline-flex items-center px-6 py-3 bg-[#0aaae8] text-black font-semibold rounded-xl hover:bg-[#76ba50] transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-[#0aaae8] focus:ring-offset-2 focus:ring-offset-black group"
+                    className="inline-flex items-center px-6 py-3 bg-[#0aaae8] text-black font-semibold  hover:bg-[#76ba50] transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-[#0aaae8] focus:ring-offset-2 focus:ring-offset-black group"
                   >
                     <span>Contact Us</span>
                     <svg

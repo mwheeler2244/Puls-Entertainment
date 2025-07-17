@@ -87,9 +87,10 @@ export const Header = () => {
           transition={{ duration: 0.8, delay: 0.4 }}
         >
           <motion.a
-            href="#"
+            href="https://www.instagram.com/pulsentertainment24/?igsh=MTU2eGp4MHh6NHh6Ng%3D%3D#"
+            target="blank"
             aria-label="Instagram"
-            className="text-gray-400 hover:text-white"
+            className="cursor-pointer text-gray-400 hover:text-white"
             whileHover={{ scale: 1.1, y: -2 }}
             transition={{ duration: 0.2 }}
           >
@@ -98,9 +99,10 @@ export const Header = () => {
             </svg>
           </motion.a>
           <motion.a
-            href="#"
+            href="https://www.facebook.com/people/PULS-Entertainment/61563958379055/?mibextid=LQQJ4d"
             aria-label="Facebook"
-            className="text-gray-400 hover:text-white"
+            target="blank"
+            className="cursor-pointer text-gray-400 hover:text-white"
             whileHover={{ scale: 1.1, y: -2 }}
             transition={{ duration: 0.2 }}
           >
@@ -109,29 +111,21 @@ export const Header = () => {
             </svg>
           </motion.a>
           <motion.a
-            href="#"
+            href="https://x.com/PULS2024"
             aria-label="Twitter"
-            className="text-gray-400 hover:text-white"
+            target="blank"
+            className="cursor-pointer text-gray-400 hover:text-white z-20"
             whileHover={{ scale: 1.1, y: -2 }}
             transition={{ duration: 0.2 }}
           >
             <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
-              <path d="M22.46 6c-.77.35-1.6.58-2.46.67.88-.53 1.56-1.37 1.88-2.38-.83.5-1.75.85-2.72 1.05C18.37 4.5 17.26 4 16 4c-2.35 0-4.27 1.92-4.27 4.29 0 .34.04.67.11.98-3.56-.18-6.73-1.89-8.84-4.48-.37.63-.58 1.37-.58 2.15 0 1.49.76 2.8 1.91 3.56-.71 0-1.37-.22-1.95-.5v.05c0 2.08 1.48 3.82 3.44 4.21-.36.1-.74.15-1.14.15-.28 0-.55-.03-.81-.08.55 1.7 2.14 2.94 4.03 2.97-1.47 1.15-3.33 1.83-5.35 1.83-.35 0-.69-.02-1.03-.06 1.9 1.22 4.16 1.93 6.56 1.93 7.88 0 12.2-6.54 12.2-12.2 0-.19 0-.37-.01-.56.84-.6 1.56-1.36 2.14-2.23z" />
+              <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
             </svg>
           </motion.a>
         </motion.div>
 
         {/* Mobile Menu Button */}
         <div className="flex items-center space-x-6 lg:hidden">
-          <button
-            onClick={() =>
-              setCurrentLang(currentLang === "ENG" ? "ESP" : "ENG")
-            }
-            className="text-gray-300 font-mono text-sm tracking-wider border border-gray-300 px-3 py-1"
-          >
-            {currentLang}
-          </button>
-
           <button className="text-gray-300 font-mono text-sm tracking-wider flex items-center space-x-2">
             <span>MENU</span>
             <div className="flex flex-col space-y-1">

@@ -9,15 +9,10 @@ export const HeroSection = () => {
 
   return (
     <div className="relative min-h-screen bg-black text-white overflow-hidden">
-      {/* Blues/Rock Grunge Background (no SVGs) */}
-      <div className="absolute inset-0 z-0 pointer-events-none">
-        {/* Grunge texture using only gradients */}
-      </div>
+      <div className="absolute inset-0 pointer-events-none"></div>
 
-      {/* Navigation Header */}
       <Header />
 
-      {/* Main Content */}
       <div className="relative z-10 max-w-7xl mx-auto h-screen flex flex-col justify-center pt-32">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           {/* Left Column - Typography */}
@@ -83,13 +78,13 @@ export const HeroSection = () => {
 
             {/* CTA Buttons */}
             <motion.div
-              className="flex flex-col sm:flex-row gap-4 pt-8"
+              className="cursor-pointer flex flex-col sm:flex-row gap-4 pt-8"
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 1.8 }}
             >
               <motion.button
-                className="bg-white text-slate-900 px-8 py-4 text-sm font-mono tracking-widest hover:bg-gray-200 transition-colors border-2 border-white hover:shadow-lg hover:shadow-[#0aaae8]/20"
+                className="cursor-pointer bg-white text-slate-900 px-8 py-4 text-sm font-mono tracking-widest hover:bg-gray-200 transition-colors border-2 border-white hover:shadow-lg hover:shadow-[#0aaae8]/20"
                 whileHover={{ scale: 1.05, y: -2 }}
                 whileTap={{ scale: 0.95 }}
                 transition={{ duration: 0.2 }}
@@ -97,7 +92,7 @@ export const HeroSection = () => {
                 SERVICES{" "}
               </motion.button>
               <motion.button
-                className="border-2 border-white text-white px-8 py-4 text-sm font-mono tracking-widest hover:bg-white hover:text-slate-900 transition-colors hover:shadow-lg hover:shadow-[#0aaae8]/20"
+                className="cursor-pointer border-2 border-white text-white px-8 py-4 text-sm font-mono tracking-widest hover:bg-white hover:text-slate-900 transition-colors hover:shadow-lg hover:shadow-[#0aaae8]/20"
                 whileHover={{ scale: 1.05, y: -2 }}
                 whileTap={{ scale: 0.95 }}
                 transition={{ duration: 0.2 }}
@@ -134,7 +129,7 @@ export const HeroSection = () => {
 
       {/* Corner Accent */}
       <motion.div
-        className="absolute top-0 right-0 w-32 h-32 border-l-2 border-b-2 border-white opacity-20"
+        className="absolute top-0 right-0 w-32 h-32 border-l-2 border-b-2 border-white opacity-20 z-10"
         initial={{ opacity: 0, scale: 0 }}
         animate={{ opacity: 0.2, scale: 1 }}
         transition={{ duration: 1, delay: 2.2 }}
