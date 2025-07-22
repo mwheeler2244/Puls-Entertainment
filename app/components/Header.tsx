@@ -1,10 +1,13 @@
 "use client";
 
 import { motion } from "framer-motion";
+import { useState } from "react";
 
 export const Header = () => {
+  const [mobileOpen, setMobileOpen] = useState(false);
+
   return (
-    <nav className="z-20 p-8">
+    <nav className="z-20 p-8 relative">
       <div className="max-w-7xl mx-auto flex justify-between items-center">
         <motion.div
           className="flex items-center flex-shrink-0"
@@ -122,16 +125,96 @@ export const Header = () => {
         </motion.div>
 
         {/* Mobile Menu Button */}
-        <div className="flex items-center space-x-6 lg:hidden">
-          <button className="text-gray-300 font-mono text-sm tracking-wider flex items-center space-x-2">
-            <span>MENU</span>
-            <div className="flex flex-col space-y-1">
-              <div className="w-6 h-0.5 bg-gray-300"></div>
-              <div className="w-6 h-0.5 bg-gray-300"></div>
-              <div className="w-6 h-0.5 bg-gray-300"></div>
-            </div>
+        <div className="flex items-center space-x-6 lg:hidden z-50 cursor-pointer relative">
+          <button
+            className="cursor-pointer text-gray-300 font-mono text-sm tracking-wider flex items-center space-x-2"
+            onClick={() => setMobileOpen(true)}
+            aria-label="Open mobile menu"
+          >
+            {/* Hamburger SVG */}
+            <svg
+              className="w-8 h-8"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M4 6h16M4 12h16M4 18h16"
+              />
+            </svg>
           </button>
         </div>
+        {/* Mobile Nav Overlay */}
+        <motion.div
+          initial={{ x: "100%" }}
+          animate={{ x: mobileOpen ? 0 : "100%" }}
+          transition={{ type: "tween", duration: 0.3 }}
+          className={`fixed top-0 right-0 h-full w-64 bg-gray-900 z-50 shadow-lg flex flex-col p-8 space-y-8 lg:hidden ${
+            mobileOpen ? "" : "pointer-events-none"
+          }`}
+          style={{ boxShadow: "0 0 20px #0008" }}
+        >
+          <button
+            className="self-end mb-8 text-gray-400 hover:text-white cursor-pointer"
+            onClick={() => setMobileOpen(false)}
+            aria-label="Close mobile menu"
+          >
+            {/* X/Close SVG */}
+            <svg
+              className="w-7 h-7"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M6 18L18 6M6 6l12 12"
+              />
+            </svg>
+          </button>
+          <nav className="flex flex-col space-y-6 text-gray-300 font-mono text-lg tracking-widest">
+            <a
+              href="/about"
+              className="hover:text-white transition-colors duration-300 border-b border-transparent hover:border-white pb-1"
+              onClick={() => setMobileOpen(false)}
+            >
+              ABOUT
+            </a>
+            <a
+              href="/services"
+              className="hover:text-white transition-colors duration-300 border-b border-transparent hover:border-white pb-1"
+              onClick={() => setMobileOpen(false)}
+            >
+              SERVICES
+            </a>
+            <a
+              href="/clients"
+              className="hover:text-white transition-colors duration-300 border-b border-transparent hover:border-white pb-1"
+              onClick={() => setMobileOpen(false)}
+            >
+              CLIENTS
+            </a>
+            <a
+              href="/partners"
+              className="hover:text-white transition-colors duration-300 border-b border-transparent hover:border-white pb-1"
+              onClick={() => setMobileOpen(false)}
+            >
+              PARTNERS
+            </a>
+            <a
+              href="/contact"
+              className="hover:text-white transition-colors duration-300 border-b border-transparent hover:border-white pb-1"
+              onClick={() => setMobileOpen(false)}
+            >
+              CONTACT
+            </a>
+          </nav>
+        </motion.div>
       </div>
     </nav>
   );
