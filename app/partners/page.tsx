@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 import { Header } from "../components/Header";
 
 const partners = [
@@ -64,11 +65,14 @@ export default function PartnersPage() {
               }}
               tabIndex={0}
             >
-              <img
+              <Image
                 src={partner.img}
                 alt={partner.alt}
                 className="mb-5 rounded-lg h-28 w-28 object-contain bg-neutral-800 shadow-md hover:shadow-lg transition-shadow border-white group-hover:border-[var(--accent)] group-focus:border-[var(--accent)]"
                 style={{ borderColor: partner.border }}
+                width={112}
+                height={112}
+                priority
               />
               <h2 className="text-2xl font-bold mb-2 text-white drop-shadow-sm">
                 {partner.name}

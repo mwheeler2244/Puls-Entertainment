@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 const AboutTeaserSection = () => {
   return (
@@ -10,13 +11,14 @@ const AboutTeaserSection = () => {
         {/* Image with double border and glow, centered */}
         <div className="w-full max-w-xs flex-shrink-0 relative flex items-center justify-center mx-auto">
           <span className="absolute -top-4 -left-4 w-full h-full rounded-xl border-4 border-[#76ba50] z-0" />
-          <img
+          <Image
             src="/assets/ams-1.jpeg"
             alt="About our journey"
             className="relative w-full rounded-xl object-cover shadow-2xl z-20"
-            style={{
-              background: "#111",
-            }}
+            style={{ background: "#111" }}
+            width={320}
+            height={400}
+            priority
           />
         </div>
         {/* Content, centered and symmetrical */}

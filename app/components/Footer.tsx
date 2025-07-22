@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Image from "next/image";
 import { Toast } from "./Toast";
 
 export const Footer = () => {
@@ -37,11 +38,14 @@ export const Footer = () => {
               <div className="lg:col-span-4 space-y-8">
                 <div className="space-y-6">
                   <div className="flex items-center">
-                    <img
+                    <Image
                       src="/assets/logo.jpeg"
                       alt="PULS Entertainment Logo"
                       className="w-20 h-12 object-contain mr-3 drop-shadow-lg"
                       style={{ filter: "drop-shadow(0 0 4px #0aaae888)" }}
+                      width={80}
+                      height={48}
+                      priority
                     />
                   </div>
                   <p className="text-gray-300 leading-relaxed text-lg max-w-md">
