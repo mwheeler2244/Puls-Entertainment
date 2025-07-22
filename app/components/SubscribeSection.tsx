@@ -161,13 +161,13 @@ export const ContactSection = () => {
               </span>
             </div>
             <h2 className="text-4xl md:text-6xl font-bold mb-6">
-              Let's Create
+              Let&apos;s Create
               <br />
               <span className="text-white">Something Amazing</span>
             </h2>
             <p className="text-gray-300 text-xl max-w-3xl mx-auto leading-relaxed">
               Ready to take your music career to the next level? Have a
-              partnership proposal? We'd love to hear from you.
+              partnership proposal? We&apos;d love to hear from you.
             </p>
           </div>
 
@@ -177,9 +177,9 @@ export const ContactSection = () => {
               <div>
                 <h3 className="text-3xl font-bold mb-6">Get in Touch</h3>
                 <p className="text-gray-300 text-lg leading-relaxed mb-8">
-                  Whether you're an artist looking for representation, a brand
-                  seeking partnerships, or simply want to learn more about what
-                  we do, we're here to help.
+                  Whether you&apos;re an artist looking for representation, a
+                  brand seeking partnerships, or simply want to learn more about
+                  what we do, we&apos;re here to help.
                 </p>
               </div>
 
@@ -231,7 +231,7 @@ export const ContactSection = () => {
                   Send us a Message
                 </h3>
                 <p className="text-gray-400">
-                  Fill out the form below and we'll get back to you soon
+                  Fill out the form below and we&apos;ll get back to you soon
                 </p>
               </div>
 

@@ -14,13 +14,9 @@ export const Footer = () => {
     setToast({ message: "", isVisible: false });
   };
 
-  const scrollToSection = (sectionId: string) => {
-    document.getElementById(sectionId)?.scrollIntoView({ behavior: "smooth" });
-  };
-
   const handleLinkClick = (linkName: string) => {
     showToast(
-      `${linkName} page coming soon! We're working on bringing you this feature.`
+      `${linkName} page coming soon! We&apos;re working on bringing you this feature.`
     );
   };
 
@@ -206,8 +202,8 @@ export const Footer = () => {
                     Get In Touch
                   </h4>
                   <p className="text-gray-300 leading-relaxed">
-                    Ready to discover amazing music? Let's connect and explore
-                    the world of exceptional talent together.
+                    Ready to discover amazing music? Let&apos;s connect and
+                    explore the world of exceptional talent together.
                   </p>
                   <a
                     href="/contact"

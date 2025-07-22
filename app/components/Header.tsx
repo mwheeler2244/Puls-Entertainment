@@ -4,8 +4,6 @@ import { useState } from "react";
 import { motion } from "framer-motion";
 
 export const Header = () => {
-  const [currentLang, setCurrentLang] = useState("ENG");
-
   return (
     <nav className="z-20 p-8">
       <div className="max-w-7xl mx-auto flex justify-between items-center">

@@ -11,7 +11,7 @@ const services = [
   {
     title: "Web Design and Development",
     description:
-      "In today's digital age, a compelling online presence is essential. We craft visually stunning, user-friendly websites tailored to your needs, ensuring a seamless experience for your fans and industry contacts.",
+      "In today&apos;s digital age, a compelling online presence is essential. We craft visually stunning, user-friendly websites tailored to your needs, ensuring a seamless experience for your fans and industry contacts.",
     image: "/assets/webdev.avif",
     alt: "Web Design and Development",
   },

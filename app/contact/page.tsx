@@ -16,13 +16,6 @@ export default function ContactPage() {
     "idle" | "success" | "error"
   >("idle");
 
-  const handleInputChange = (
-    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
-  ) => {
-    const { name, value } = e.target;
-    setFormData((prev) => ({ ...prev, [name]: value }));
-  };
-
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
@@ -52,7 +45,7 @@ export default function ContactPage() {
             transition={{ duration: 0.8 }}
             className="text-6xl md:text-8xl font-extrabold mb-6 tracking-tight bg-white bg-clip-text text-transparent drop-shadow-lg"
           >
-            Let's Connect
+            Let&apos;s Connect
           </motion.h1>
           <motion.p
             initial={{ opacity: 0, y: 30 }}
@@ -60,8 +53,8 @@ export default function ContactPage() {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="text-2xl md:text-3xl text-gray-200 mb-12 max-w-2xl mx-auto leading-relaxed font-light"
           >
-            Ready to transform your vision into reality? We're here to help you
-            achieve extraordinary results.
+            Ready to transform your vision into reality? We&apos;re here to help
+            you achieve extraordinary results.
           </motion.p>
           <motion.a
             href="#contact-info"
@@ -86,8 +79,8 @@ export default function ContactPage() {
             </h2>
             <p className="text-gray-300 text-lg leading-relaxed mb-8">
               Whether you have a project in mind or just want to explore
-              possibilities, we'd love to hear from you. Our team is ready to
-              bring your ideas to life.
+              possibilities, we&apos;d love to hear from you. Our team is ready
+              to bring your ideas to life.
             </p>
             <div className="flex flex-col md:flex-row justify-center items-center gap-8 md:gap-12">
               <div className="flex flex-col items-center group transition-all">

@@ -69,7 +69,7 @@ const principles: PrincipleProps[] = [
   {
     title: "Unite",
     content:
-      "There's a kind of magic, standing in line at a concert, with fellow fans. The stories, conversation, and fellowship is unlike any other. PULS is about uniting the fans, no matter where they are, to keep the stories alive.",
+      "There&apos;s a kind of magic, standing in line at a concert, with fellow fans. The stories, conversation, and fellowship is unlike any other. PULS is about uniting the fans, no matter where they are, to keep the stories alive.",
     accentColor: "green",
   },
   {

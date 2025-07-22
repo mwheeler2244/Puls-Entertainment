@@ -5,8 +5,6 @@ import { motion } from "framer-motion";
 import { Header } from "./Header";
 
 export const HeroSection = () => {
-  const [currentLang, setCurrentLang] = useState("ENG");
-
   return (
     <div className="relative min-h-screen bg-black text-white overflow-hidden">
       <div className="absolute inset-0 pointer-events-none"></div>
