@@ -5,33 +5,16 @@ import { motion } from "framer-motion";
 import { Header } from "../components";
 
 export default function ContactPage() {
-  const [formData, setFormData] = useState({
-    name: "",
-    email: "",
-    company: "",
-    message: "",
-  });
-  const [isSubmitting, setIsSubmitting] = useState(false);
-  const [submitStatus, setSubmitStatus] = useState<
-    "idle" | "success" | "error"
-  >("idle");
-
-  const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault();
-    setIsSubmitting(true);
-
-    // Simulate form submission
-    await new Promise((resolve) => setTimeout(resolve, 1500));
-
-    setSubmitStatus("success");
-    setIsSubmitting(false);
-
-    // Reset form after success
-    setTimeout(() => {
-      setFormData({ name: "", email: "", company: "", message: "" });
-      setSubmitStatus("idle");
-    }, 3000);
-  };
+  // Remove the following unused lines:
+  // const [formData, setFormData] = useState({
+  //   name: "",
+  //   email: "",
+  //   company: "",
+  //   message: "",
+  // });
+  // const [isSubmitting, setIsSubmitting] = useState(false);
+  // const [submitStatus, setSubmitStatus] = useState<"idle" | "success" | "error">("idle");
+  // const handleSubmit = async (e: React.FormEvent) => { ... };
 
   return (
     <div className="min-h-screen bg-black text-white">
