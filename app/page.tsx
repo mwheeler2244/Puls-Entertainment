@@ -7,7 +7,6 @@ export default function PulsEntertainment() {
       <HeroSection />
       <MissionStatement />
       <AboutTeaserSection />
-      <Footer />
     </main>
   );
 }

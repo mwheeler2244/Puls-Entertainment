@@ -121,18 +121,16 @@ export const Footer = () => {
                       <li className="flex justify-center lg:justify-start">
                         <a
                           href="/about"
-                          className="group flex items-center text-gray-300 hover:text-[#0aaae8] transition-all duration-200 cursor-pointer focus:outline-none focus:ring-2 focus:ring-[#0aaae8] focus:ring-offset-2 focus:ring-offset-black rounded-lg px-2 py-1"
+                          className="group flex items-center text-gray-300 hover:text-[#0aaae8] transition-all duration-200 cursor-pointer focus:outline-none focus:ring-2 focus:ring-[#0aaae8] focus:ring-offset-2 focus:ring-offset-black rounded-lg px-2 py-1 justify-center w-full"
                         >
-                          <span className="w-2 h-2 bg-[#0aaae8] rounded-full mr-3 opacity-0 group-hover:opacity-100 transition-opacity duration-200"></span>
                           About
                         </a>
                       </li>
                       <li className="flex justify-center lg:justify-start">
                         <a
                           href="/services"
-                          className="group flex items-center text-gray-300 hover:text-[#0aaae8] transition-all duration-200 cursor-pointer focus:outline-none focus:ring-2 focus:ring-[#0aaae8] focus:ring-offset-2 focus:ring-offset-black rounded-lg px-2 py-1"
+                          className="group flex items-center text-gray-300 hover:text-[#0aaae8] transition-all duration-200 cursor-pointer focus:outline-none focus:ring-2 focus:ring-[#0aaae8] focus:ring-offset-2 focus:ring-offset-black rounded-lg px-2 py-1 justify-center w-full"
                         >
-                          <span className="w-2 h-2 bg-[#0aaae8] rounded-full mr-3 opacity-0 group-hover:opacity-100 transition-opacity duration-200"></span>
                           Services
                         </a>
                       </li>
@@ -140,9 +138,8 @@ export const Footer = () => {
                         <a
                           href="#"
                           onClick={() => handleLinkClick("Archive")}
-                          className="group flex items-center text-gray-300 hover:text-[#0aaae8] transition-all duration-200 cursor-pointer focus:outline-none focus:ring-2 focus:ring-[#0aaae8] focus:ring-offset-2 focus:ring-offset-black rounded-lg px-2 py-1"
+                          className="group flex items-center text-gray-300 hover:text-[#0aaae8] transition-all duration-200 cursor-pointer focus:outline-none focus:ring-2 focus:ring-[#0aaae8] focus:ring-offset-2 focus:ring-offset-black rounded-lg px-2 py-1 justify-center w-full"
                         >
-                          <span className="w-2 h-2 bg-[#0aaae8] rounded-full mr-3 opacity-0 group-hover:opacity-100 transition-opacity duration-200"></span>
                           Archive
                         </a>
                       </li>
@@ -150,9 +147,8 @@ export const Footer = () => {
                         <a
                           href="#"
                           onClick={() => handleLinkClick("Contact")}
-                          className="group flex items-center text-gray-300 hover:text-[#0aaae8] transition-all duration-200 cursor-pointer focus:outline-none focus:ring-2 focus:ring-[#0aaae8] focus:ring-offset-2 focus:ring-offset-black rounded-lg px-2 py-1"
+                          className="group flex items-center text-gray-300 hover:text-[#0aaae8] transition-all duration-200 cursor-pointer focus:outline-none focus:ring-2 focus:ring-[#0aaae8] focus:ring-offset-2 focus:ring-offset-black rounded-lg px-2 py-1 justify-center w-full"
                         >
-                          <span className="w-2 h-2 bg-[#0aaae8] rounded-full mr-3 opacity-0 group-hover:opacity-100 transition-opacity duration-200"></span>
                           Contact
                         </a>
                       </li>
@@ -168,9 +164,8 @@ export const Footer = () => {
                         <a
                           href="#"
                           onClick={() => handleLinkClick("Artists")}
-                          className="group flex items-center text-gray-300 hover:text-[#76ba50] transition-all duration-200 cursor-pointer focus:outline-none focus:ring-2 focus:ring-[#76ba50] focus:ring-offset-2 focus:ring-offset-black rounded-lg px-2 py-1"
+                          className="group flex items-center text-gray-300 hover:text-[#76ba50] transition-all duration-200 cursor-pointer focus:outline-none focus:ring-2 focus:ring-[#76ba50] focus:ring-offset-2 focus:ring-offset-black rounded-lg px-2 py-1 justify-center w-full"
                         >
-                          <span className="w-2 h-2 bg-[#76ba50] rounded-full mr-3 opacity-0 group-hover:opacity-100 transition-opacity duration-200"></span>
                           Featured Artists
                         </a>
                       </li>
@@ -178,9 +173,8 @@ export const Footer = () => {
                         <a
                           href="#"
                           onClick={() => handleLinkClick("Events")}
-                          className="group flex items-center text-gray-300 hover:text-[#76ba50] transition-all duration-200 cursor-pointer focus:outline-none focus:ring-2 focus:ring-[#76ba50] focus:ring-offset-2 focus:ring-offset-black rounded-lg px-2 py-1"
+                          className="group flex items-center text-gray-300 hover:text-[#76ba50] transition-all duration-200 cursor-pointer focus:outline-none focus:ring-2 focus:ring-[#76ba50] focus:ring-offset-2 focus:ring-offset-black rounded-lg px-2 py-1 justify-center w-full"
                         >
-                          <span className="w-2 h-2 bg-[#76ba50] rounded-full mr-3 opacity-0 group-hover:opacity-100 transition-opacity duration-200"></span>
                           Upcoming Events
                         </a>
                       </li>
@@ -188,9 +182,8 @@ export const Footer = () => {
                         <a
                           href="#"
                           onClick={() => handleLinkClick("Newsletter")}
-                          className="group flex items-center text-gray-300 hover:text-[#76ba50] transition-all duration-200 cursor-pointer focus:outline-none focus:ring-2 focus:ring-[#76ba50] focus:ring-offset-2 focus:ring-offset-black rounded-lg px-2 py-1"
+                          className="group flex items-center text-gray-300 hover:text-[#76ba50] transition-all duration-200 cursor-pointer focus:outline-none focus:ring-2 focus:ring-[#76ba50] focus:ring-offset-2 focus:ring-offset-black rounded-lg px-2 py-1 justify-center w-full"
                         >
-                          <span className="w-2 h-2 bg-[#76ba50] rounded-full mr-3 opacity-0 group-hover:opacity-100 transition-opacity duration-200"></span>
                           Newsletter
                         </a>
                       </li>

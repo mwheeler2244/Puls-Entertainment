@@ -110,10 +110,10 @@ export const HeroSection = () => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, delay: 2 }}
       >
-        <div className="max-w-7xl mx-auto px-8">
-          <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
+        <div className="max-w-7xl mx-auto px-8 ">
+          <div className="flex flex-col md:flex-row justify-between items-center space-y-6 md:space-y-0">
             <div className="text-sm text-gray-400 font-mono tracking-wider"></div>
-            <div className="flex items-center space-x-8 text-sm text-gray-400 font-mono tracking-wider">
+            <div className=" flex items-center space-x-8 text-sm text-gray-400 font-mono tracking-wider">
               <span>PRESERVATION</span>
               <span>•</span>
               <span>ARCHIVE</span>
