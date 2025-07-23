@@ -1,4 +1,4 @@
-import { HeroSection, Footer, MissionStatement } from "./components";
+import { HeroSection, MissionStatement } from "./components";
 import AboutTeaserSection from "./components/AboutTeaserSection";
 
 export default function PulsEntertainment() {
