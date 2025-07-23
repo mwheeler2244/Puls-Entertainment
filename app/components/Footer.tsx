@@ -33,11 +33,11 @@ export const Footer = () => {
         <div className="relative z-10 max-w-7xl mx-auto">
           {/* Top Section with Brand and Navigation */}
           <div className="pt-16 pb-12">
-            <div className="grid grid-cols-1 lg:grid-cols-12 gap-12">
+            <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 text-center lg:text-left">
               {/* Brand Section - Takes 4 columns */}
-              <div className="lg:col-span-4 space-y-8">
+              <div className="lg:col-span-4 space-y-8 flex flex-col items-center lg:items-start">
                 <div className="space-y-6">
-                  <div className="flex items-center">
+                  <div className="flex items-center justify-center lg:justify-start">
                     <Image
                       src="/assets/logo.jpeg"
                       alt="PULS Entertainment Logo"
@@ -48,7 +48,7 @@ export const Footer = () => {
                       priority
                     />
                   </div>
-                  <p className="text-gray-300 leading-relaxed text-lg max-w-md">
+                  <p className="text-gray-300 leading-relaxed text-lg max-w-md mx-auto lg:mx-0">
                     Discovering and celebrating exceptional musical talent from
                     all around the globe. We connect artists with audiences
                     worldwide.
@@ -60,7 +60,7 @@ export const Footer = () => {
                   <h4 className="text-lg font-semibold text-white">
                     Follow Us
                   </h4>
-                  <div className="flex space-x-4">
+                  <div className="flex justify-center lg:justify-start space-x-4">
                     <a
                       href="https://x.com/PULS2024"
                       target="_blank"
@@ -111,14 +111,14 @@ export const Footer = () => {
               </div>
 
               {/* Navigation Section - Takes 4 columns */}
-              <div className="lg:col-span-4">
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+              <div className="lg:col-span-4 flex flex-col items-center lg:items-start">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-8 w-full">
                   <div className="space-y-6">
                     <h4 className="text-lg font-semibold text-white border-b border-gray-700 pb-2">
                       Navigation
                     </h4>
                     <ul className="space-y-4">
-                      <li>
+                      <li className="flex justify-center lg:justify-start">
                         <a
                           href="/about"
                           className="group flex items-center text-gray-300 hover:text-[#0aaae8] transition-all duration-200 cursor-pointer focus:outline-none focus:ring-2 focus:ring-[#0aaae8] focus:ring-offset-2 focus:ring-offset-black rounded-lg px-2 py-1"
@@ -127,7 +127,7 @@ export const Footer = () => {
                           About
                         </a>
                       </li>
-                      <li>
+                      <li className="flex justify-center lg:justify-start">
                         <a
                           href="/services"
                           className="group flex items-center text-gray-300 hover:text-[#0aaae8] transition-all duration-200 cursor-pointer focus:outline-none focus:ring-2 focus:ring-[#0aaae8] focus:ring-offset-2 focus:ring-offset-black rounded-lg px-2 py-1"
@@ -136,7 +136,7 @@ export const Footer = () => {
                           Services
                         </a>
                       </li>
-                      <li>
+                      <li className="flex justify-center lg:justify-start">
                         <a
                           href="#"
                           onClick={() => handleLinkClick("Archive")}
@@ -146,7 +146,7 @@ export const Footer = () => {
                           Archive
                         </a>
                       </li>
-                      <li>
+                      <li className="flex justify-center lg:justify-start">
                         <a
                           href="#"
                           onClick={() => handleLinkClick("Contact")}
@@ -164,7 +164,7 @@ export const Footer = () => {
                       Discover
                     </h4>
                     <ul className="space-y-4">
-                      <li>
+                      <li className="flex justify-center lg:justify-start">
                         <a
                           href="#"
                           onClick={() => handleLinkClick("Artists")}
@@ -174,7 +174,7 @@ export const Footer = () => {
                           Featured Artists
                         </a>
                       </li>
-                      <li>
+                      <li className="flex justify-center lg:justify-start">
                         <a
                           href="#"
                           onClick={() => handleLinkClick("Events")}
@@ -184,7 +184,7 @@ export const Footer = () => {
                           Upcoming Events
                         </a>
                       </li>
-                      <li>
+                      <li className="flex justify-center lg:justify-start">
                         <a
                           href="#"
                           onClick={() => handleLinkClick("Newsletter")}
@@ -200,7 +200,7 @@ export const Footer = () => {
               </div>
 
               {/* Contact Section - Takes 4 columns */}
-              <div className="lg:col-span-4 space-y-8">
+              <div className="lg:col-span-4 space-y-8 flex flex-col items-center lg:items-start">
                 <div className="space-y-6">
                   <h4 className="text-lg font-semibold text-white border-b border-gray-700 pb-2">
                     Get In Touch
@@ -235,7 +235,7 @@ export const Footer = () => {
 
           {/* Bottom Section */}
           <div className="border-t border-gray-800 pt-8 pb-10">
-            <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
+            <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0 text-center">
               <div className="text-gray-400 text-sm">
                 © 2025{" "}
                 <span className="text-[#0aaae8] font-semibold">
@@ -243,8 +243,8 @@ export const Footer = () => {
                 </span>
                 . All rights reserved.
               </div>
-              <div className="flex items-center space-x-6 text-sm text-gray-400">
-                <span className="flex items-center">
+              <div className="flex flex-col md:flex-row items-center space-y-2 md:space-y-0 md:space-x-6 text-sm text-gray-400">
+                <span className="flex items-center justify-center">
                   Made with{" "}
                   <span className="text-[#76ba50] mx-1 text-lg">♫</span> for
                   music lovers
