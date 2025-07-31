@@ -39,102 +39,13 @@ export default function ContactPage() {
             you achieve extraordinary results.
           </motion.p>
           <motion.a
-            href="#contact-info"
+            href="mailto:ams@puls-entertainment.com"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.97 }}
             className="inline-block bg-[#0aaae8] text-white font-semibold py-4 px-10  shadow-lg hover:bg-[#0995c7] transition-all duration-200 text-lg mt-4"
           >
-            Email Us
+            ams@puls-entertainment.com
           </motion.a>
-        </div>
-      </section>
-
-      {/* Contact Info Section */}
-      <section
-        id="contact-info"
-        className="py-24 px-6 flex justify-center items-center bg-black/70"
-      >
-        <div className="backdrop-blur-xl bg-gray-900/60 border border-gray-800 rounded-3xl shadow-2xl p-12 max-w-3xl w-full">
-          <div className="space-y-8 text-center">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4 tracking-tight text-white drop-shadow">
-              Get in Touch
-            </h2>
-            <p className="text-gray-300 text-lg leading-relaxed mb-8">
-              Whether you have a project in mind or just want to explore
-              possibilities, we&apos;d love to hear from you. Our team is ready
-              to bring your ideas to life.
-            </p>
-            <div className="flex flex-col md:flex-row justify-center items-center gap-8 md:gap-12">
-              <div className="flex flex-col items-center group transition-all">
-                <div className="w-14 h-14 rounded-full bg-[#0aaae8] flex items-center justify-center mb-2 shadow-lg group-hover:scale-110 group-hover:bg-[#0995c7] transition-all">
-                  <svg
-                    className="w-7 h-7 text-white"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={2}
-                      d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
-                    />
-                  </svg>
-                </div>
-                <h3 className="text-lg font-semibold mb-1">Email</h3>
-                <a
-                  href="mailto:ams@puls-entertainment.com"
-                  className="text-[#0aaae8] underline font-medium hover:text-[#0995c7] transition-all"
-                >
-                  ams@puls-entertainment.com
-                </a>
-              </div>
-              <div className="flex flex-col items-center group transition-all">
-                <div className="w-14 h-14 rounded-full bg-[#0aaae8] flex items-center justify-center mb-2 shadow-lg group-hover:scale-110 group-hover:bg-[#0995c7] transition-all">
-                  <svg
-                    className="w-7 h-7 text-white"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={2}
-                      d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"
-                    />
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={2}
-                      d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
-                    />
-                  </svg>
-                </div>
-                <h3 className="text-lg font-semibold mb-1">Location</h3>
-                <p className="text-gray-300">Nebraska</p>
-              </div>
-              <div className="flex flex-col items-center group transition-all">
-                <div className="w-14 h-14 rounded-full bg-[#0aaae8] flex items-center justify-center mb-2 shadow-lg group-hover:scale-110 group-hover:bg-[#0995c7] transition-all">
-                  <svg
-                    className="w-7 h-7 text-white"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={2}
-                      d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
-                    />
-                  </svg>
-                </div>
-                <h3 className="text-lg font-semibold mb-1">Response Time</h3>
-                <p className="text-gray-300">Within 24 hours</p>
-              </div>
-            </div>
-          </div>
         </div>
       </section>
 

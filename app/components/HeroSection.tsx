@@ -85,6 +85,9 @@ export const HeroSection = () => {
                 whileHover={{ scale: 1.05, y: -2 }}
                 whileTap={{ scale: 0.95 }}
                 transition={{ duration: 0.2 }}
+                onClick={() => {
+                  window.location.href = "/services";
+                }}
               >
                 SERVICES{" "}
               </motion.button>
@@ -93,6 +96,9 @@ export const HeroSection = () => {
                 whileHover={{ scale: 1.05, y: -2 }}
                 whileTap={{ scale: 0.95 }}
                 transition={{ duration: 0.2 }}
+                onClick={() => {
+                  window.location.href = "/contact";
+                }}
               >
                 CONTACT
               </motion.button>
